@@ -7,9 +7,13 @@ upgrade.
 
 # Getting into Recovery Mode
 
-1. Power the device off.
-2. Insert a bootable Dogebox OS SD card (see
-   [Getting Dogebox](./installation/getting.md)) — or, on devices with an
+1. Power the device off. On the NanoPC-T6, plugging power in only lights
+   the standby LEDs — press the power button once to boot, and note that
+   a hung system will not respond to a short press (hold ~5 seconds to
+   force-cut power as a last resort).
+2. Insert a bootable Dogebox OS SD card — on the NanoPC-T6 the bootloader
+   only boots microSD cards **32GB or smaller (SDHC, not SDXC)**; see
+   [NanoPC T6](./installation/t6.md). Or, on devices with an
    internally-installed recovery image, hold the boot-media selection for
    your board.
 3. Power the device on. The recovery environment boots from the SD card
