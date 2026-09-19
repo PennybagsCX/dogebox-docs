@@ -26,7 +26,7 @@
 
 # How To
 
-- [Recovery Mode]()
+- [Recovery Mode](./howto/recovery.md)
 - [Installing Pups](./howto/pups.md)
 - [Forwarding Required Ports](./howto/ports.md)
 - [Updating & Upgrading]()
